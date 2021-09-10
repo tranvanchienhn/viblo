@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>Viblo</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="header grid wide">
+            <nav class="header__nav">
+                <a href="" class="header__nav-logo">
+                    <img src="./assets/img/logo.svg" alt="" class="header__logo">
+                </a>
+                <ul class="header__nav-list">
+                    <li class="header__nav-item header__nav-active"><a href="" class="header__nav-link">Trang Chủ</a>
+                    </li>
+                    <li class="header__nav-item"><a href="" class="header__nav-link">Khóa Học</a></li>
+                    <li class="header__nav-item"><a href="" class="header__nav-link">Lộ Trình</a></li>
+                    <li class="header__nav-item"><a href="" class="header__nav-link">Xếp Hạng</a></li>
+                    <li class="header__nav-item"><a href="" class="header__nav-link">Đóng Góp</a></li>
+                </ul>
+            </nav>
+            <div class="header__right">
+                <div class="header__right-search">
+                    <input class="header__right-input" type="text" placeholder="Bạn đang muốn học gì ?">
+                    <span class="header__right-icon">
+                        <svg viewBox="64 64 896 896" focusable="false" class="" data-icon="search" width="1.4rem"
+                            height="1.4rem" fill="currentColor" aria-hidden="true">
+                            <path
+                                d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0 0 11.6 0l43.6-43.5a8.2 8.2 0 0 0 0-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z">
+                            </path>
+                        </svg>
+                    </span>
+                    <div class="header__right-search-suggest">
+                        <h5 class="search__suggest-heading">Tìm kiếm nhanh với thẻ:</h5>
+                        <ul class="search__suggest-list">
+                            <li class="search__suggest-item">
+                                <a href="" class="search__suggest-link">Linux</a>
+                            </li>
+                            <li class="search__suggest-item">
+                                <a href="" class="search__suggest-link">LPIC</a>
+                            </li>
+                            <li class="search__suggest-item">
+                                <a href="" class="search__suggest-link">CCNP</a>
+                            </li>
+                            <li class="search__suggest-item">
+                                <a href="" class="search__suggest-link">CCNA</a>
+                            </li>
+                            <li class="search__suggest-item">
+                                <a href="" class="search__suggest-link">FE</a>
+                            </li>
+                            <li class="search__suggest-item">
+                                <a href="" class="search__suggest-link">Laravel</a>
+                            </li>
+                            <li class="search__suggest-item">
+                                <a href="" class="search__suggest-link">PHP</a>
+                            </li>
+                            <li class="search__suggest-item">
+                                <a href="" class="search__suggest-link">BE</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header__right-lang">
+                    <img src="./assets/img/vi-flag.png" alt="" class="header__right-iconLang">
+                    <span class="header__right-langText">VN</span>
+                    <span class="header__right-langIcon"><svg viewBox="64 64 896 896" focusable="false" class=""
+                            data-icon="down" width="1em" height="1em" fill="currentColor" aria-hidden="true">
+                            <path
+                                d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z">
+                            </path>
+                        </svg></span>
+                </div>
+                <a href="" class="header__right-login">Đăng Nhập</a>
+                <a href="" class="header__right-register button-primary">Đăng Kí</a>
+            </div>
+        </div>
+    </header>
+    <section class="slide">
+        <div class="grid wide slide__content">
+            <div class="col l-6 slide__content-left">
+                <h1 class="slide__content-heading">Hành trang cho công việc tương lai của bạn</h1>
+                <p class="slide__content-text">Một công cụ hữu ích để học tập và thực hành kiến thức công nghệ</p>
+                <button class="button-primary slide__content-btn">Đi Đến Khóa Học</button>
+            </div>
+            <div class="col l-6 slide__content-img">
+                <img src="./assets/img/introduction-banner.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="recommended section">
+        <div class="grid wide recommended__content">
+            <h2 class="recommended__content-heading">Bạn đang muốn học gì?</h2>
+            <p class="recommended__content-text">Những chủ đề nổi bật nhất</p>
+            <div class="row recommended__list">
+                <div class="col c-3">
+                    <div class="recommended__item">
+                        <div class="recommended__item-text">
+                            <h4 class="recommended__item-heding">Linux</h4>
+                            <p class="recommended__item-khoaHoc">3 Khóa học</p>
+                        </div>
+                        <div class="recommended__item-img">
+                            <img src="./assets/img/linux.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col c-3">
+                    <div class="recommended__item">
+                        <div class="recommended__item-text">
+                            <h4 class="recommended__item-heding">Google Cloud Platform (GCP)</h4>
+                            <p class="recommended__item-khoaHoc">3 Khóa học</p>
+                        </div>
+                        <div class="recommended__item-img">
+                            <img src="./assets/img/google-cloud.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col c-3">
+                    <div class="recommended__item">
+                        <div class="recommended__item-text">
+                            <h4 class="recommended__item-heding">Security</h4>
+                            <p class="recommended__item-khoaHoc">5 Khóa học</p>
+                        </div>
+                        <div class="recommended__item-img">
+                            <img src="./assets/img/security.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col c-3">
+                    <div class="recommended__item">
+                        <div class="recommended__item-text">
+                            <h4 class="recommended__item-heding">Web Development</h4>
+                            <p class="recommended__item-khoaHoc">5 Khóa học</p>
+                        </div>
+                        <div class="recommended__item-img">
+                            <img src="./assets/img/web-development.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col c-3">
+                    <div class="recommended__item">
+                        <div class="recommended__item-text">
+                            <h4 class="recommended__item-heding">Mobile App</h4>
+                            <p class="recommended__item-khoaHoc">5 Khóa học</p>
+                        </div>
+                        <div class="recommended__item-img">
+                            <img src="./assets/img/mobile-app.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col c-3">
+                    <div class="recommended__item">
+                        <div class="recommended__item-text">
+                            <h4 class="recommended__item-heding">Machine Learning</h4>
+                            <p class="recommended__item-khoaHoc">5 Khóa học</p>
+                        </div>
+                        <div class="recommended__item-img">
+                            <img src="./assets/img/machine-learning.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col c-3">
+                    <div class="recommended__item">
+                        <div class="recommended__item-text">
+                            <h4 class="recommended__item-heding">Amazon Web Services (AWS)</h4>
+                            <p class="recommended__item-khoaHoc">5 Khóa học</p>
+                        </div>
+                        <div class="recommended__item-img">
+                            <img src="./assets/img/amazon.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col c-3">
+                    <div class="recommended__item">
+                        <div class="recommended__item-text">
+                            <h4 class="recommended__item-heding">Blockchain</h4>
+                            <p class="recommended__item-khoaHoc">5 Khóa học</p>
+                        </div>
+                        <div class="recommended__item-img">
+                            <img src="./assets/img/blockchanin.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col c-3">
+                    <div class="recommended__item">
+                        <div class="recommended__item-text">
+                            <h4 class="recommended__item-heding">Tools and Utilities</h4>
+                            <p class="recommended__item-khoaHoc">5 Khóa học</p>
+                        </div>
+                        <div class="recommended__item-img">
+                            <img src="./assets/img/tool.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col c-3">
+                    <div class="recommended__item">
+                        <div class="recommended__item-text">
+                            <h4 class="recommended__item-heding">Database</h4>
+                            <p class="recommended__item-khoaHoc">5 Khóa học</p>
+                        </div>
+                        <div class="recommended__item-img">
+                            <img src="./assets/img/database.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col c-3">
+                    <div class="recommended__item">
+                        <div class="recommended__item-text">
+                            <h4 class="recommended__item-heding">DevOps</h4>
+                            <p class="recommended__item-khoaHoc">5 Khóa học</p>
+                        </div>
+                        <div class="recommended__item-img">
+                            <img src="./assets/img/devops.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col c-3">
+                    <div class="recommended__item">
+                        <div class="recommended__item-text">
+                            <h4 class="recommended__item-heding">Programming Languanges</h4>
+                            <p class="recommended__item-khoaHoc">5 Khóa học</p>
+                        </div>
+                        <div class="recommended__item-img">
+                            <img src="./assets/img/program-languanges.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col c-3">
+                    <div class="recommended__item">
+                        <div class="recommended__item-text">
+                            <h4 class="recommended__item-heding">Project Management</h4>
+                            <p class="recommended__item-khoaHoc">5 Khóa học</p>
+                        </div>
+                        <div class="recommended__item-img">
+                            <img src="./assets/img/project-manager.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="popular section">
+        <div class="grid wide popular__courses">
+            <h2 class="popular__courses-heading">Khóa học phổ biến nhất</h2>
+            <div class="row">
+                <div class="col c-4">
+                    <div class="popular__card">
+                        <a href="">
+                            <img src="./assets/img/font-end.jpg" alt="" class="popular__card-img">
+                        </a>
+                        <div class="popular__card-content">
+                            <a href="">
+                                <h3 class="popular__card-heading">Fundamental Information Technology Engineer
+                                    Examination (FE)</h3>
+                            </a>
+                            <div class="popular__card-footer">
+                                <div class="popular__card-count">
+                                    <p class="popular__card-count-text">
+                                        <span class="popular__card-count-icon">
+                                            <svg viewBox="64 64 896 896" focusable="false" class="" data-icon="eye"
+                                                fill="currentColor" aria-hidden="true">
+                                                <path
+                                                    d="M942.2 486.2C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM512 766c-161.3 0-279.4-81.8-362.7-254C232.6 339.8 350.7 258 512 258c161.3 0 279.4 81.8 362.7 254C791.5 684.2 673.4 766 512 766zm-4-430c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm0 288c-61.9 0-112-50.1-112-112s50.1-112 112-112 112 50.1 112 112-50.1 112-112 112z">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                        7.6K Lượt xem
+                                    </p>
+                                    <p class="popular__card-count-text">
+                                        <span class="popular__card-count-icon">
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fal"
+                                                data-icon="users" role="img" xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 640 512" class="svg-inline--fa fa-users fa-w-20 fa-2x">
+                                                <path fill="currentColor"
+                                                    d="M544 224c44.2 0 80-35.8 80-80s-35.8-80-80-80-80 35.8-80 80 35.8 80 80 80zm0-128c26.5 0 48 21.5 48 48s-21.5 48-48 48-48-21.5-48-48 21.5-48 48-48zM320 256c61.9 0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm0-192c44.1 0 80 35.9 80 80s-35.9 80-80 80-80-35.9-80-80 35.9-80 80-80zm244 192h-40c-15.2 0-29.3 4.8-41.1 12.9 9.4 6.4 17.9 13.9 25.4 22.4 4.9-2.1 10.2-3.3 15.7-3.3h40c24.2 0 44 21.5 44 48 0 8.8 7.2 16 16 16s16-7.2 16-16c0-44.1-34.1-80-76-80zM96 224c44.2 0 80-35.8 80-80s-35.8-80-80-80-80 35.8-80 80 35.8 80 80 80zm0-128c26.5 0 48 21.5 48 48s-21.5 48-48 48-48-21.5-48-48 21.5-48 48-48zm304.1 180c-33.4 0-41.7 12-80.1 12-38.4 0-46.7-12-80.1-12-36.3 0-71.6 16.2-92.3 46.9-12.4 18.4-19.6 40.5-19.6 64.3V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-44.8c0-23.8-7.2-45.9-19.6-64.3-20.7-30.7-56-46.9-92.3-46.9zM480 432c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16v-44.8c0-16.6 4.9-32.7 14.1-46.4 13.8-20.5 38.4-32.8 65.7-32.8 27.4 0 37.2 12 80.2 12s52.8-12 80.1-12c27.3 0 51.9 12.3 65.7 32.8 9.2 13.7 14.1 29.8 14.1 46.4V432zM157.1 268.9c-11.9-8.1-26-12.9-41.1-12.9H76c-41.9 0-76 35.9-76 80 0 8.8 7.2 16 16 16s16-7.2 16-16c0-26.5 19.8-48 44-48h40c5.5 0 10.8 1.2 15.7 3.3 7.5-8.5 16.1-16 25.4-22.4z"
+                                                    class=""></path>
+                                            </svg>
+                                        </span>
+                                        952 Học viên
+                                    </p>
+                                </div>
+                                <button class="popular__card-btn button-basic">Cơ bản</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col c-4">
+                    <div class="popular__card">
+                        <a href="">
+                            <img src="./assets/img/react.jpg" alt="" class="popular__card-img">
+                        </a>
+                        <div class="popular__card-content">
+                            <a href="">
+                                <h3 class="popular__card-heading">React.js Essentitals</h3>
+                            </a>
+                            <div class="popular__card-footer">
+                                <div class="popular__card-count">
+                                    <p class="popular__card-count-text">
+                                        <span class="popular__card-count-icon">
+                                            <svg viewBox="64 64 896 896" focusable="false" class="" data-icon="eye"
+                                                fill="currentColor" aria-hidden="true">
+                                                <path
+                                                    d="M942.2 486.2C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM512 766c-161.3 0-279.4-81.8-362.7-254C232.6 339.8 350.7 258 512 258c161.3 0 279.4 81.8 362.7 254C791.5 684.2 673.4 766 512 766zm-4-430c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm0 288c-61.9 0-112-50.1-112-112s50.1-112 112-112 112 50.1 112 112-50.1 112-112 112z">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                        7.6K Lượt xem
+                                    </p>
+                                    <p class="popular__card-count-text">
+                                        <span class="popular__card-count-icon">
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fal"
+                                                data-icon="users" role="img" xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 640 512" class="svg-inline--fa fa-users fa-w-20 fa-2x">
+                                                <path fill="currentColor"
+                                                    d="M544 224c44.2 0 80-35.8 80-80s-35.8-80-80-80-80 35.8-80 80 35.8 80 80 80zm0-128c26.5 0 48 21.5 48 48s-21.5 48-48 48-48-21.5-48-48 21.5-48 48-48zM320 256c61.9 0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm0-192c44.1 0 80 35.9 80 80s-35.9 80-80 80-80-35.9-80-80 35.9-80 80-80zm244 192h-40c-15.2 0-29.3 4.8-41.1 12.9 9.4 6.4 17.9 13.9 25.4 22.4 4.9-2.1 10.2-3.3 15.7-3.3h40c24.2 0 44 21.5 44 48 0 8.8 7.2 16 16 16s16-7.2 16-16c0-44.1-34.1-80-76-80zM96 224c44.2 0 80-35.8 80-80s-35.8-80-80-80-80 35.8-80 80 35.8 80 80 80zm0-128c26.5 0 48 21.5 48 48s-21.5 48-48 48-48-21.5-48-48 21.5-48 48-48zm304.1 180c-33.4 0-41.7 12-80.1 12-38.4 0-46.7-12-80.1-12-36.3 0-71.6 16.2-92.3 46.9-12.4 18.4-19.6 40.5-19.6 64.3V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-44.8c0-23.8-7.2-45.9-19.6-64.3-20.7-30.7-56-46.9-92.3-46.9zM480 432c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16v-44.8c0-16.6 4.9-32.7 14.1-46.4 13.8-20.5 38.4-32.8 65.7-32.8 27.4 0 37.2 12 80.2 12s52.8-12 80.1-12c27.3 0 51.9 12.3 65.7 32.8 9.2 13.7 14.1 29.8 14.1 46.4V432zM157.1 268.9c-11.9-8.1-26-12.9-41.1-12.9H76c-41.9 0-76 35.9-76 80 0 8.8 7.2 16 16 16s16-7.2 16-16c0-26.5 19.8-48 44-48h40c5.5 0 10.8 1.2 15.7 3.3 7.5-8.5 16.1-16 25.4-22.4z"
+                                                    class=""></path>
+                                            </svg>
+                                        </span>
+                                        952 Học viên
+                                    </p>
+                                </div>
+                                <button class="popular__card-btn button-basic">Cơ bản</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col c-4">
+                    <div class="popular__card">
+                        <a href="">
+                            <img src="./assets/img/html.jpg" alt="" class="popular__card-img">
+                        </a>
+                        <div class="popular__card-content">
+                            <a href="">
+                                <h3 class="popular__card-heading">HTML for Beginners</h3>
+                            </a>
+                            <div class="popular__card-footer">
+                                <div class="popular__card-count">
+                                    <p class="popular__card-count-text">
+                                        <span class="popular__card-count-icon">
+                                            <svg viewBox="64 64 896 896" focusable="false" class="" data-icon="eye"
+                                                fill="currentColor" aria-hidden="true">
+                                                <path
+                                                    d="M942.2 486.2C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM512 766c-161.3 0-279.4-81.8-362.7-254C232.6 339.8 350.7 258 512 258c161.3 0 279.4 81.8 362.7 254C791.5 684.2 673.4 766 512 766zm-4-430c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm0 288c-61.9 0-112-50.1-112-112s50.1-112 112-112 112 50.1 112 112-50.1 112-112 112z">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                        7.6K Lượt xem
+                                    </p>
+                                    <p class="popular__card-count-text">
+                                        <span class="popular__card-count-icon">
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fal"
+                                                data-icon="users" role="img" xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 640 512" class="svg-inline--fa fa-users fa-w-20 fa-2x">
+                                                <path fill="currentColor"
+                                                    d="M544 224c44.2 0 80-35.8 80-80s-35.8-80-80-80-80 35.8-80 80 35.8 80 80 80zm0-128c26.5 0 48 21.5 48 48s-21.5 48-48 48-48-21.5-48-48 21.5-48 48-48zM320 256c61.9 0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm0-192c44.1 0 80 35.9 80 80s-35.9 80-80 80-80-35.9-80-80 35.9-80 80-80zm244 192h-40c-15.2 0-29.3 4.8-41.1 12.9 9.4 6.4 17.9 13.9 25.4 22.4 4.9-2.1 10.2-3.3 15.7-3.3h40c24.2 0 44 21.5 44 48 0 8.8 7.2 16 16 16s16-7.2 16-16c0-44.1-34.1-80-76-80zM96 224c44.2 0 80-35.8 80-80s-35.8-80-80-80-80 35.8-80 80 35.8 80 80 80zm0-128c26.5 0 48 21.5 48 48s-21.5 48-48 48-48-21.5-48-48 21.5-48 48-48zm304.1 180c-33.4 0-41.7 12-80.1 12-38.4 0-46.7-12-80.1-12-36.3 0-71.6 16.2-92.3 46.9-12.4 18.4-19.6 40.5-19.6 64.3V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-44.8c0-23.8-7.2-45.9-19.6-64.3-20.7-30.7-56-46.9-92.3-46.9zM480 432c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16v-44.8c0-16.6 4.9-32.7 14.1-46.4 13.8-20.5 38.4-32.8 65.7-32.8 27.4 0 37.2 12 80.2 12s52.8-12 80.1-12c27.3 0 51.9 12.3 65.7 32.8 9.2 13.7 14.1 29.8 14.1 46.4V432zM157.1 268.9c-11.9-8.1-26-12.9-41.1-12.9H76c-41.9 0-76 35.9-76 80 0 8.8 7.2 16 16 16s16-7.2 16-16c0-26.5 19.8-48 44-48h40c5.5 0 10.8 1.2 15.7 3.3 7.5-8.5 16.1-16 25.4-22.4z"
+                                                    class=""></path>
+                                            </svg>
+                                        </span>
+                                        952 Học viên
+                                    </p>
+                                </div>
+                                <button class="popular__card-btn button-basic">Cơ bản</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col c-4">
+                    <div class="popular__card">
+                        <a href="">
+                            <img src="./assets/img/css.jpg" alt="" class="popular__card-img">
+                        </a>
+                        <div class="popular__card-content">
+                            <a href="">
+                                <h3 class="popular__card-heading">CSS Basic</h3>
+                            </a>
+                            <div class="popular__card-footer">
+                                <div class="popular__card-count">
+                                    <p class="popular__card-count-text">
+                                        <span class="popular__card-count-icon">
+                                            <svg viewBox="64 64 896 896" focusable="false" class="" data-icon="eye"
+                                                fill="currentColor" aria-hidden="true">
+                                                <path
+                                                    d="M942.2 486.2C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM512 766c-161.3 0-279.4-81.8-362.7-254C232.6 339.8 350.7 258 512 258c161.3 0 279.4 81.8 362.7 254C791.5 684.2 673.4 766 512 766zm-4-430c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm0 288c-61.9 0-112-50.1-112-112s50.1-112 112-112 112 50.1 112 112-50.1 112-112 112z">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                        7.6K Lượt xem
+                                    </p>
+                                    <p class="popular__card-count-text">
+                                        <span class="popular__card-count-icon">
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fal"
+                                                data-icon="users" role="img" xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 640 512" class="svg-inline--fa fa-users fa-w-20 fa-2x">
+                                                <path fill="currentColor"
+                                                    d="M544 224c44.2 0 80-35.8 80-80s-35.8-80-80-80-80 35.8-80 80 35.8 80 80 80zm0-128c26.5 0 48 21.5 48 48s-21.5 48-48 48-48-21.5-48-48 21.5-48 48-48zM320 256c61.9 0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm0-192c44.1 0 80 35.9 80 80s-35.9 80-80 80-80-35.9-80-80 35.9-80 80-80zm244 192h-40c-15.2 0-29.3 4.8-41.1 12.9 9.4 6.4 17.9 13.9 25.4 22.4 4.9-2.1 10.2-3.3 15.7-3.3h40c24.2 0 44 21.5 44 48 0 8.8 7.2 16 16 16s16-7.2 16-16c0-44.1-34.1-80-76-80zM96 224c44.2 0 80-35.8 80-80s-35.8-80-80-80-80 35.8-80 80 35.8 80 80 80zm0-128c26.5 0 48 21.5 48 48s-21.5 48-48 48-48-21.5-48-48 21.5-48 48-48zm304.1 180c-33.4 0-41.7 12-80.1 12-38.4 0-46.7-12-80.1-12-36.3 0-71.6 16.2-92.3 46.9-12.4 18.4-19.6 40.5-19.6 64.3V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-44.8c0-23.8-7.2-45.9-19.6-64.3-20.7-30.7-56-46.9-92.3-46.9zM480 432c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16v-44.8c0-16.6 4.9-32.7 14.1-46.4 13.8-20.5 38.4-32.8 65.7-32.8 27.4 0 37.2 12 80.2 12s52.8-12 80.1-12c27.3 0 51.9 12.3 65.7 32.8 9.2 13.7 14.1 29.8 14.1 46.4V432zM157.1 268.9c-11.9-8.1-26-12.9-41.1-12.9H76c-41.9 0-76 35.9-76 80 0 8.8 7.2 16 16 16s16-7.2 16-16c0-26.5 19.8-48 44-48h40c5.5 0 10.8 1.2 15.7 3.3 7.5-8.5 16.1-16 25.4-22.4z"
+                                                    class=""></path>
+                                            </svg>
+                                        </span>
+                                        952 Học viên
+                                    </p>
+                                </div>
+                                <button class="popular__card-btn button-intermediate">Trung cấp</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col c-4">
+                    <div class="popular__card">
+                        <a href="">
+                            <img src="./assets/img/javascript.jpg" alt="" class="popular__card-img">
+                        </a>
+                        <div class="popular__card-content">
+                            <a href="">
+                                <h3 class="popular__card-heading">Javascript Core</h3>
+                            </a>
+                            <div class="popular__card-footer">
+                                <div class="popular__card-count">
+                                    <p class="popular__card-count-text">
+                                        <span class="popular__card-count-icon">
+                                            <svg viewBox="64 64 896 896" focusable="false" class="" data-icon="eye"
+                                                fill="currentColor" aria-hidden="true">
+                                                <path
+                                                    d="M942.2 486.2C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM512 766c-161.3 0-279.4-81.8-362.7-254C232.6 339.8 350.7 258 512 258c161.3 0 279.4 81.8 362.7 254C791.5 684.2 673.4 766 512 766zm-4-430c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm0 288c-61.9 0-112-50.1-112-112s50.1-112 112-112 112 50.1 112 112-50.1 112-112 112z">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                        7.6K Lượt xem
+                                    </p>
+                                    <p class="popular__card-count-text">
+                                        <span class="popular__card-count-icon">
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fal"
+                                                data-icon="users" role="img" xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 640 512" class="svg-inline--fa fa-users fa-w-20 fa-2x">
+                                                <path fill="currentColor"
+                                                    d="M544 224c44.2 0 80-35.8 80-80s-35.8-80-80-80-80 35.8-80 80 35.8 80 80 80zm0-128c26.5 0 48 21.5 48 48s-21.5 48-48 48-48-21.5-48-48 21.5-48 48-48zM320 256c61.9 0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm0-192c44.1 0 80 35.9 80 80s-35.9 80-80 80-80-35.9-80-80 35.9-80 80-80zm244 192h-40c-15.2 0-29.3 4.8-41.1 12.9 9.4 6.4 17.9 13.9 25.4 22.4 4.9-2.1 10.2-3.3 15.7-3.3h40c24.2 0 44 21.5 44 48 0 8.8 7.2 16 16 16s16-7.2 16-16c0-44.1-34.1-80-76-80zM96 224c44.2 0 80-35.8 80-80s-35.8-80-80-80-80 35.8-80 80 35.8 80 80 80zm0-128c26.5 0 48 21.5 48 48s-21.5 48-48 48-48-21.5-48-48 21.5-48 48-48zm304.1 180c-33.4 0-41.7 12-80.1 12-38.4 0-46.7-12-80.1-12-36.3 0-71.6 16.2-92.3 46.9-12.4 18.4-19.6 40.5-19.6 64.3V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-44.8c0-23.8-7.2-45.9-19.6-64.3-20.7-30.7-56-46.9-92.3-46.9zM480 432c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16v-44.8c0-16.6 4.9-32.7 14.1-46.4 13.8-20.5 38.4-32.8 65.7-32.8 27.4 0 37.2 12 80.2 12s52.8-12 80.1-12c27.3 0 51.9 12.3 65.7 32.8 9.2 13.7 14.1 29.8 14.1 46.4V432zM157.1 268.9c-11.9-8.1-26-12.9-41.1-12.9H76c-41.9 0-76 35.9-76 80 0 8.8 7.2 16 16 16s16-7.2 16-16c0-26.5 19.8-48 44-48h40c5.5 0 10.8 1.2 15.7 3.3 7.5-8.5 16.1-16 25.4-22.4z"
+                                                    class=""></path>
+                                            </svg>
+                                        </span>
+                                        952 Học viên
+                                    </p>
+                                </div>
+                                <button class="popular__card-btn button-basic">Cơ bản</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col c-4">
+                    <div class="popular__card">
+                        <a href="">
+                            <img src="./assets/img/git.jpg" alt="" class="popular__card-img">
+                        </a>
+                        <div class="popular__card-content">
+                            <a href="">
+                                <h3 class="popular__card-heading">Git Essentials</h3>
+                            </a>
+                            <div class="popular__card-footer">
+                                <div class="popular__card-count">
+                                    <p class="popular__card-count-text">
+                                        <span class="popular__card-count-icon">
+                                            <svg viewBox="64 64 896 896" focusable="false" class="" data-icon="eye"
+                                                fill="currentColor" aria-hidden="true">
+                                                <path
+                                                    d="M942.2 486.2C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM512 766c-161.3 0-279.4-81.8-362.7-254C232.6 339.8 350.7 258 512 258c161.3 0 279.4 81.8 362.7 254C791.5 684.2 673.4 766 512 766zm-4-430c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm0 288c-61.9 0-112-50.1-112-112s50.1-112 112-112 112 50.1 112 112-50.1 112-112 112z">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                        7.6K Lượt xem
+                                    </p>
+                                    <p class="popular__card-count-text">
+                                        <span class="popular__card-count-icon">
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fal"
+                                                data-icon="users" role="img" xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 640 512" class="svg-inline--fa fa-users fa-w-20 fa-2x">
+                                                <path fill="currentColor"
+                                                    d="M544 224c44.2 0 80-35.8 80-80s-35.8-80-80-80-80 35.8-80 80 35.8 80 80 80zm0-128c26.5 0 48 21.5 48 48s-21.5 48-48 48-48-21.5-48-48 21.5-48 48-48zM320 256c61.9 0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm0-192c44.1 0 80 35.9 80 80s-35.9 80-80 80-80-35.9-80-80 35.9-80 80-80zm244 192h-40c-15.2 0-29.3 4.8-41.1 12.9 9.4 6.4 17.9 13.9 25.4 22.4 4.9-2.1 10.2-3.3 15.7-3.3h40c24.2 0 44 21.5 44 48 0 8.8 7.2 16 16 16s16-7.2 16-16c0-44.1-34.1-80-76-80zM96 224c44.2 0 80-35.8 80-80s-35.8-80-80-80-80 35.8-80 80 35.8 80 80 80zm0-128c26.5 0 48 21.5 48 48s-21.5 48-48 48-48-21.5-48-48 21.5-48 48-48zm304.1 180c-33.4 0-41.7 12-80.1 12-38.4 0-46.7-12-80.1-12-36.3 0-71.6 16.2-92.3 46.9-12.4 18.4-19.6 40.5-19.6 64.3V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-44.8c0-23.8-7.2-45.9-19.6-64.3-20.7-30.7-56-46.9-92.3-46.9zM480 432c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16v-44.8c0-16.6 4.9-32.7 14.1-46.4 13.8-20.5 38.4-32.8 65.7-32.8 27.4 0 37.2 12 80.2 12s52.8-12 80.1-12c27.3 0 51.9 12.3 65.7 32.8 9.2 13.7 14.1 29.8 14.1 46.4V432zM157.1 268.9c-11.9-8.1-26-12.9-41.1-12.9H76c-41.9 0-76 35.9-76 80 0 8.8 7.2 16 16 16s16-7.2 16-16c0-26.5 19.8-48 44-48h40c5.5 0 10.8 1.2 15.7 3.3 7.5-8.5 16.1-16 25.4-22.4z"
+                                                    class=""></path>
+                                            </svg>
+                                        </span>
+                                        952 Học viên
+                                    </p>
+                                </div>
+                                <button class="popular__card-btn button-basic">Cơ bản</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="newest section">
+        <div class="grid wide">
+            <h2 class="newest__heading">Khóa học mới nhất</h2>
+            <div class="newest__carousel owl-carousel owl-theme">
+                <div class="item newest__card">
+                    <a href="">
+                        <img src="./assets/img/react.jpg" alt="" class="newest__card-img">
+                    </a>
+                    <div class="newest__card-content">
+                        <a href="">
+                            <h3 class="newest__card-heading">React.js Essentitals</h3>
+                        </a>
+                        <div class="newest__card-footer">
+                            <div class="newest__card-count">
+                                <p class="newest__card-count-text">
+                                    <span class="newest__card-count-icon">
+                                        <svg viewBox="64 64 896 896" focusable="false" class="" data-icon="eye"
+                                            fill="currentColor" aria-hidden="true">
+                                            <path
+                                                d="M942.2 486.2C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM512 766c-161.3 0-279.4-81.8-362.7-254C232.6 339.8 350.7 258 512 258c161.3 0 279.4 81.8 362.7 254C791.5 684.2 673.4 766 512 766zm-4-430c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm0 288c-61.9 0-112-50.1-112-112s50.1-112 112-112 112 50.1 112 112-50.1 112-112 112z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    7.6K Lượt xem
+                                </p>
+                                <p class="newest__card-count-text">
+                                    <span class="newest__card-count-icon">
+                                        <svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="users"
+                                            role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"
+                                            class="svg-inline--fa fa-users fa-w-20 fa-2x">
+                                            <path fill="currentColor"
+                                                d="M544 224c44.2 0 80-35.8 80-80s-35.8-80-80-80-80 35.8-80 80 35.8 80 80 80zm0-128c26.5 0 48 21.5 48 48s-21.5 48-48 48-48-21.5-48-48 21.5-48 48-48zM320 256c61.9 0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm0-192c44.1 0 80 35.9 80 80s-35.9 80-80 80-80-35.9-80-80 35.9-80 80-80zm244 192h-40c-15.2 0-29.3 4.8-41.1 12.9 9.4 6.4 17.9 13.9 25.4 22.4 4.9-2.1 10.2-3.3 15.7-3.3h40c24.2 0 44 21.5 44 48 0 8.8 7.2 16 16 16s16-7.2 16-16c0-44.1-34.1-80-76-80zM96 224c44.2 0 80-35.8 80-80s-35.8-80-80-80-80 35.8-80 80 35.8 80 80 80zm0-128c26.5 0 48 21.5 48 48s-21.5 48-48 48-48-21.5-48-48 21.5-48 48-48zm304.1 180c-33.4 0-41.7 12-80.1 12-38.4 0-46.7-12-80.1-12-36.3 0-71.6 16.2-92.3 46.9-12.4 18.4-19.6 40.5-19.6 64.3V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-44.8c0-23.8-7.2-45.9-19.6-64.3-20.7-30.7-56-46.9-92.3-46.9zM480 432c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16v-44.8c0-16.6 4.9-32.7 14.1-46.4 13.8-20.5 38.4-32.8 65.7-32.8 27.4 0 37.2 12 80.2 12s52.8-12 80.1-12c27.3 0 51.9 12.3 65.7 32.8 9.2 13.7 14.1 29.8 14.1 46.4V432zM157.1 268.9c-11.9-8.1-26-12.9-41.1-12.9H76c-41.9 0-76 35.9-76 80 0 8.8 7.2 16 16 16s16-7.2 16-16c0-26.5 19.8-48 44-48h40c5.5 0 10.8 1.2 15.7 3.3 7.5-8.5 16.1-16 25.4-22.4z"
+                                                class=""></path>
+                                        </svg>
+                                    </span>
+                                    952 Học viên
+                                </p>
+                            </div>
+                            <button class="newest__card-btn button-basic">Cơ bản</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item newest__card">
+                    <a href="">
+                        <img src="./assets/img/css-advanced.jpg" alt="" class="newest__card-img">
+                    </a>
+                    <div class="newest__card-content">
+                        <a href="">
+                            <h3 class="newest__card-heading">CSS Advanced</h3>
+                        </a>
+                        <div class="newest__card-footer">
+                            <div class="newest__card-count">
+                                <p class="newest__card-count-text">
+                                    <span class="newest__card-count-icon">
+                                        <svg viewBox="64 64 896 896" focusable="false" class="" data-icon="eye"
+                                            fill="currentColor" aria-hidden="true">
+                                            <path
+                                                d="M942.2 486.2C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM512 766c-161.3 0-279.4-81.8-362.7-254C232.6 339.8 350.7 258 512 258c161.3 0 279.4 81.8 362.7 254C791.5 684.2 673.4 766 512 766zm-4-430c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm0 288c-61.9 0-112-50.1-112-112s50.1-112 112-112 112 50.1 112 112-50.1 112-112 112z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    7.6K Lượt xem
+                                </p>
+                                <p class="newest__card-count-text">
+                                    <span class="newest__card-count-icon">
+                                        <svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="users"
+                                            role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"
+                                            class="svg-inline--fa fa-users fa-w-20 fa-2x">
+                                            <path fill="currentColor"
+                                                d="M544 224c44.2 0 80-35.8 80-80s-35.8-80-80-80-80 35.8-80 80 35.8 80 80 80zm0-128c26.5 0 48 21.5 48 48s-21.5 48-48 48-48-21.5-48-48 21.5-48 48-48zM320 256c61.9 0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm0-192c44.1 0 80 35.9 80 80s-35.9 80-80 80-80-35.9-80-80 35.9-80 80-80zm244 192h-40c-15.2 0-29.3 4.8-41.1 12.9 9.4 6.4 17.9 13.9 25.4 22.4 4.9-2.1 10.2-3.3 15.7-3.3h40c24.2 0 44 21.5 44 48 0 8.8 7.2 16 16 16s16-7.2 16-16c0-44.1-34.1-80-76-80zM96 224c44.2 0 80-35.8 80-80s-35.8-80-80-80-80 35.8-80 80 35.8 80 80 80zm0-128c26.5 0 48 21.5 48 48s-21.5 48-48 48-48-21.5-48-48 21.5-48 48-48zm304.1 180c-33.4 0-41.7 12-80.1 12-38.4 0-46.7-12-80.1-12-36.3 0-71.6 16.2-92.3 46.9-12.4 18.4-19.6 40.5-19.6 64.3V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-44.8c0-23.8-7.2-45.9-19.6-64.3-20.7-30.7-56-46.9-92.3-46.9zM480 432c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16v-44.8c0-16.6 4.9-32.7 14.1-46.4 13.8-20.5 38.4-32.8 65.7-32.8 27.4 0 37.2 12 80.2 12s52.8-12 80.1-12c27.3 0 51.9 12.3 65.7 32.8 9.2 13.7 14.1 29.8 14.1 46.4V432zM157.1 268.9c-11.9-8.1-26-12.9-41.1-12.9H76c-41.9 0-76 35.9-76 80 0 8.8 7.2 16 16 16s16-7.2 16-16c0-26.5 19.8-48 44-48h40c5.5 0 10.8 1.2 15.7 3.3 7.5-8.5 16.1-16 25.4-22.4z"
+                                                class=""></path>
+                                        </svg>
+                                    </span>
+                                    952 Học viên
+                                </p>
+                            </div>
+                            <button class="newest__card-btn button-basic">Cơ bản</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item newest__card">
+                    <a href="">
+                        <img src="./assets/img/artificial.png" alt="" class="newest__card-img">
+                    </a>
+                    <div class="newest__card-content">
+                        <a href="">
+                            <h3 class="newest__card-heading">Information Technology Passport Examination (IP)</h3>
+                        </a>
+                        <div class="newest__card-footer">
+                            <div class="newest__card-count">
+                                <p class="newest__card-count-text">
+                                    <span class="newest__card-count-icon">
+                                        <svg viewBox="64 64 896 896" focusable="false" class="" data-icon="eye"
+                                            fill="currentColor" aria-hidden="true">
+                                            <path
+                                                d="M942.2 486.2C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM512 766c-161.3 0-279.4-81.8-362.7-254C232.6 339.8 350.7 258 512 258c161.3 0 279.4 81.8 362.7 254C791.5 684.2 673.4 766 512 766zm-4-430c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm0 288c-61.9 0-112-50.1-112-112s50.1-112 112-112 112 50.1 112 112-50.1 112-112 112z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    7.6K Lượt xem
+                                </p>
+                                <p class="newest__card-count-text">
+                                    <span class="newest__card-count-icon">
+                                        <svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="users"
+                                            role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"
+                                            class="svg-inline--fa fa-users fa-w-20 fa-2x">
+                                            <path fill="currentColor"
+                                                d="M544 224c44.2 0 80-35.8 80-80s-35.8-80-80-80-80 35.8-80 80 35.8 80 80 80zm0-128c26.5 0 48 21.5 48 48s-21.5 48-48 48-48-21.5-48-48 21.5-48 48-48zM320 256c61.9 0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm0-192c44.1 0 80 35.9 80 80s-35.9 80-80 80-80-35.9-80-80 35.9-80 80-80zm244 192h-40c-15.2 0-29.3 4.8-41.1 12.9 9.4 6.4 17.9 13.9 25.4 22.4 4.9-2.1 10.2-3.3 15.7-3.3h40c24.2 0 44 21.5 44 48 0 8.8 7.2 16 16 16s16-7.2 16-16c0-44.1-34.1-80-76-80zM96 224c44.2 0 80-35.8 80-80s-35.8-80-80-80-80 35.8-80 80 35.8 80 80 80zm0-128c26.5 0 48 21.5 48 48s-21.5 48-48 48-48-21.5-48-48 21.5-48 48-48zm304.1 180c-33.4 0-41.7 12-80.1 12-38.4 0-46.7-12-80.1-12-36.3 0-71.6 16.2-92.3 46.9-12.4 18.4-19.6 40.5-19.6 64.3V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-44.8c0-23.8-7.2-45.9-19.6-64.3-20.7-30.7-56-46.9-92.3-46.9zM480 432c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16v-44.8c0-16.6 4.9-32.7 14.1-46.4 13.8-20.5 38.4-32.8 65.7-32.8 27.4 0 37.2 12 80.2 12s52.8-12 80.1-12c27.3 0 51.9 12.3 65.7 32.8 9.2 13.7 14.1 29.8 14.1 46.4V432zM157.1 268.9c-11.9-8.1-26-12.9-41.1-12.9H76c-41.9 0-76 35.9-76 80 0 8.8 7.2 16 16 16s16-7.2 16-16c0-26.5 19.8-48 44-48h40c5.5 0 10.8 1.2 15.7 3.3 7.5-8.5 16.1-16 25.4-22.4z"
+                                                class=""></path>
+                                        </svg>
+                                    </span>
+                                    952 Học viên
+                                </p>
+                            </div>
+                            <button class="newest__card-btn button-advanced">Nâng cao</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item newest__card">
+                    <a href="">
+                        <img src="./assets/img/react.jpg" alt="" class="newest__card-img">
+                    </a>
+                    <div class="newest__card-content">
+                        <a href="">
+                            <h3 class="newest__card-heading">React.js Essentitals</h3>
+                        </a>
+                        <div class="newest__card-footer">
+                            <div class="newest__card-count">
+                                <p class="newest__card-count-text">
+                                    <span class="newest__card-count-icon">
+                                        <svg viewBox="64 64 896 896" focusable="false" class="" data-icon="eye"
+                                            fill="currentColor" aria-hidden="true">
+                                            <path
+                                                d="M942.2 486.2C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM512 766c-161.3 0-279.4-81.8-362.7-254C232.6 339.8 350.7 258 512 258c161.3 0 279.4 81.8 362.7 254C791.5 684.2 673.4 766 512 766zm-4-430c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm0 288c-61.9 0-112-50.1-112-112s50.1-112 112-112 112 50.1 112 112-50.1 112-112 112z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    7.6K Lượt xem
+                                </p>
+                                <p class="newest__card-count-text">
+                                    <span class="newest__card-count-icon">
+                                        <svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="users"
+                                            role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"
+                                            class="svg-inline--fa fa-users fa-w-20 fa-2x">
+                                            <path fill="currentColor"
+                                                d="M544 224c44.2 0 80-35.8 80-80s-35.8-80-80-80-80 35.8-80 80 35.8 80 80 80zm0-128c26.5 0 48 21.5 48 48s-21.5 48-48 48-48-21.5-48-48 21.5-48 48-48zM320 256c61.9 0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm0-192c44.1 0 80 35.9 80 80s-35.9 80-80 80-80-35.9-80-80 35.9-80 80-80zm244 192h-40c-15.2 0-29.3 4.8-41.1 12.9 9.4 6.4 17.9 13.9 25.4 22.4 4.9-2.1 10.2-3.3 15.7-3.3h40c24.2 0 44 21.5 44 48 0 8.8 7.2 16 16 16s16-7.2 16-16c0-44.1-34.1-80-76-80zM96 224c44.2 0 80-35.8 80-80s-35.8-80-80-80-80 35.8-80 80 35.8 80 80 80zm0-128c26.5 0 48 21.5 48 48s-21.5 48-48 48-48-21.5-48-48 21.5-48 48-48zm304.1 180c-33.4 0-41.7 12-80.1 12-38.4 0-46.7-12-80.1-12-36.3 0-71.6 16.2-92.3 46.9-12.4 18.4-19.6 40.5-19.6 64.3V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-44.8c0-23.8-7.2-45.9-19.6-64.3-20.7-30.7-56-46.9-92.3-46.9zM480 432c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16v-44.8c0-16.6 4.9-32.7 14.1-46.4 13.8-20.5 38.4-32.8 65.7-32.8 27.4 0 37.2 12 80.2 12s52.8-12 80.1-12c27.3 0 51.9 12.3 65.7 32.8 9.2 13.7 14.1 29.8 14.1 46.4V432zM157.1 268.9c-11.9-8.1-26-12.9-41.1-12.9H76c-41.9 0-76 35.9-76 80 0 8.8 7.2 16 16 16s16-7.2 16-16c0-26.5 19.8-48 44-48h40c5.5 0 10.8 1.2 15.7 3.3 7.5-8.5 16.1-16 25.4-22.4z"
+                                                class=""></path>
+                                        </svg>
+                                    </span>
+                                    952 Học viên
+                                </p>
+                            </div>
+                            <button class="newest__card-btn button-basic">Cơ bản</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="timeline">
+        <div class="grid row">
+            <div class="col c-6 timeline__left">
+                <img src="./assets/img/how-it-work-left.svg" alt="" class="timeline__left-img">
+            </div>
+            <div class="col c-6 timeline__right">
+                <h2 class="timeline__right-heading">Học như thế nào?</h2>
+                <div class="timeline__right-item">
+                    <span class="timeline__right-out"><span class="timeline__right-num">1</span></span>
+                    <div class="timeline__right-content">
+                        <h3 class="timeline__right-content-heading">Tự học với những tài liệu được gợi ý</h3>
+                        <p class="timeline__right-content-text">Hoàn thành các objective cho từng khóa học bằng cách học qua các tài liệu được gợi ý sẵn.</p>
+                    </div>
+                    <img src="./assets/img/tail.png" alt="" class="timeline__tail">
+                </div>
+                <div class="timeline__right-item">
+                    <span class="timeline__right-out"><span class="timeline__right-num">3</span></span>
+                    <div class="timeline__right-content">
+                        <h3 class="timeline__right-content-heading">Giành thứ hạng cao trên bảng xếp hạng</h3>
+                        <p class="timeline__right-content-text">Kiểm tra năng lực với bài test bằng tiếng Anh hoặc tiếng Việt và ghi tên mình vào bảng xếp hạng.</p>
+                    </div>
+                    <img src="./assets/img/tail.png" alt="" class="timeline__tail">
+                </div>
+                <div class="timeline__right-item">
+                    <span class="timeline__right-out"><span class="timeline__right-num">3</span></span>
+                    <div class="timeline__right-content">
+                        <h3 class="timeline__right-content-heading">Nhận chứng chỉ của iLearn</h3>
+                        <p class="timeline__right-content-text">Hoàn thành tất cả bài thi trong mỗi khóa học và nhận chứng chỉ của chúng tôi.</p>
+                    </div>
+                </div>
+                <img src="./assets/img/how-it-work-right.svg" alt="" class="timeline__right-img">
+            </div>
+        </div>
+    </section>
+    <section class="popularRoadmaps section">
+        <div class="grid wide popularRoadmaps__content">
+            <h2 class="popularRoadmaps__heading">Lộ trình phổ biển</h2>
+            <div class="popularRoadmaps__list row">
+                <div class="col c-2">
+                    <div class="popularRoadmaps__item">
+                        <img class="popularRoadmaps__item-img" src="./assets/img/backend.png" alt="">
+                        <a href="" class="popularRoadmaps__item-text">Backend Developer</a>
+                    </div>
+                </div>
+                <div class="col c-2">
+                    <div class="popularRoadmaps__item">
+                        <img class="popularRoadmaps__item-img" src="./assets/img/fontend.png" alt="">
+                        <a href="" class="popularRoadmaps__item-text">Frontend Developer</a>
+                    </div>
+                </div>
+                <div class="col c-2">
+                    <div class="popularRoadmaps__item">
+                        <img class="popularRoadmaps__item-img" src="./assets/img/devops-icon.png" alt="">
+                        <a href="" class="popularRoadmaps__item-text">DevOps Engineer</a>
+                    </div>
+                </div>
+                <div class="col c-2">
+                    <div class="popularRoadmaps__item">
+                        <img class="popularRoadmaps__item-img" src="./assets/img/hacker.png" alt="">
+                        <a href="" class="popularRoadmaps__item-text">Hacker WhiteHat</a>
+                    </div>
+                </div>
+                <div class="col c-2">
+                    <div class="popularRoadmaps__item">
+                        <img class="popularRoadmaps__item-img" src="./assets/img/web-security.png" alt="">
+                        <a href="" class="popularRoadmaps__item-text">Web Security</a>
+                    </div>
+                </div>
+                <div class="col c-2">
+                    <div class="popularRoadmaps__item">
+                        <img class="popularRoadmaps__item-img" src="./assets/img/blockchan-icon.png" alt="">
+                        <a href="" class="popularRoadmaps__item-text">Blockchain Engineer</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="learningPath section">
+        <img src="./assets/img/logo.svg" alt="" class="learningPath__logo">
+        <h2 class="learningPath__heading">Bạn không biết bắt đầu từ đâu ?</h2>
+        <p class="learningPath__text">Hãy xem lộ trình hướng dẫn ngay dưới đây</p>
+        <button class="learningPath__btn button-primary">Đến Lộ Trình</button>
+        <img src="./assets/img/how-it-work-right.svg" alt="" class="learningPath__img">
+    </section>
+    <footer class="footer">
+        <div class="grid wide">
+            <div class="footer__content row">
+                <div class="col c-3">
+                    <div class="footer__content-item">
+                        <h5 class="footer__content-heading">LIÊN HỆ</h5>
+                        <nav class="footer__nav-list">
+                            <li class="footer__nav-item">
+                                <a href="" class="footer__nav-link">
+                                    <img src="./assets/img/email.png" alt="" class="footer__nav-img">contact@ilearn.vn
+                                </a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a href="" class="footer__nav-link">
+                                    <img src="./assets/img/facebook.png" alt="" class="footer__nav-img">Facebook
+                                </a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a href="" class="footer__nav-link">
+                                    <img src="./assets/img/github.png" alt="" class="footer__nav-img">Github
+                                </a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a href="" class="footer__nav-link">
+                                    <img src="./assets/img/careers.png" alt="" class="footer__nav-img">Careers
+                                </a>
+                            </li>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col c-3">
+                    <div class="footer__content-item">
+                        <h5 class="footer__content-heading">NỘI DUNG</h5>
+                        <nav class="footer__nav-list">
+                            <li class="footer__nav-item">
+                                <a href="" class="footer__nav-link">
+                                    Trang chủ
+                                </a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a href="" class="footer__nav-link">
+                                    Khóa học
+                                </a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a href="" class="footer__nav-link">
+                                    Đóng góp câu hỏi
+                                </a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a href="" class="footer__nav-link">
+                                    Lộ trình
+                                </a>
+                            </li>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col c-3">
+                    <div class="footer__content-item">
+                        <h5 class="footer__content-heading">DỊCH VỤ</h5>
+                        <nav class="footer__nav-list">
+                            <li class="footer__nav-item">
+                                <a href="" class="footer__nav-link">
+                                    <img src="./assets/img/viblo.svg" alt="" class="footer__nav-img">Viblo
+                                </a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a href="" class="footer__nav-link">
+                                    <img src="./assets/img/code.svg" alt="" class="footer__nav-img">Viblo Code
+                                </a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a href="" class="footer__nav-link">
+                                    <img src="./assets/img/ctf.svg" alt="" class="footer__nav-img">Viblo CTF
+                                </a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a href="" class="footer__nav-link">
+                                    <img src="./assets/img/cv.svg" alt="" class="footer__nav-img">Viblo CV
+                                </a>
+                            </li>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col c-3">
+                    <div class="footer__content-item">
+                        <h5 class="footer__content-heading">ĐIỀU KHOẢN & ĐIỀU KIỆN</h5>
+                        <nav class="footer__nav-list">
+                            <li class="footer__nav-item">
+                                <a href="" class="footer__nav-link">
+                                    Hỗ trợ
+                                </a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a href="" class="footer__nav-link">
+                                    Điều khoản
+                                </a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a href="" class="footer__nav-link">
+                                    Phản hồi
+                                </a>
+                            </li>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="footer__copyright">Bản quyền thuộc về © Viblo 2021. Mọi quyền được bảo lưu.</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 20,
+            nav: true,
+            dots:false,
+            autoplay:true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
