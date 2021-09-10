@@ -1,0 +1,55 @@
+.button-primary{
+    color: $color-text;
+    background-color: $color-primary;
+    height: 48px;
+    font-size: 1.5rem;
+    padding: 0 24px;
+    line-height: 48px;
+    border-radius: 20px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    &:hover{
+        background:$color-primary-hover;
+    }
+}
+.button-basic{
+    color: $color-white;
+    background:$color-basic;
+    font-size: 1.2rem;
+    width: 120px;
+    height: 24px;
+    border-radius: 6px;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-weight: 600;
+}
+.button-advanced{
+    color: $color-white;
+    background:$color-advanced;
+    font-size: 1.2rem;
+    width: 120px;
+    height: 24px;
+    border-radius: 6px;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-weight: 600;
+}
+.button-intermediate{
+    color: $color-white;
+    background:$color-intermediate;
+    font-size: 1.2rem;
+    width: 120px;
+    height: 24px;
+    border-radius: 6px;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-weight: 600;
+}

@@ -1,0 +1,32 @@
+.popularRoadmaps{
+    padding: 60px 0;
+    background: $color-gray;
+    &__content{
+        .popularRoadmaps__heading{
+            font-size: 40px;
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        .popularRoadmaps__list{
+            .popularRoadmaps__item{
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &-img{
+                    width: 100%;
+                    border-radius: 8px;
+                }
+                &-text{
+                    position: absolute;
+                    color: $color-white;
+                    font-size: 2rem;
+                    font-weight: 500;
+                    &:hover{
+                        color: $color-primary;
+                    }
+                }
+            }
+        }
+    }
+}

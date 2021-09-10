@@ -1,0 +1,51 @@
+.newest{
+    background:$color-bg-2;
+    padding: 60px 0;
+    &__heading{
+        font-size:4rem;
+        margin-bottom: 40px;
+    }
+    &__carousel{
+        .newest__card{
+            border: 1px solid rgba($color: #000000, $alpha: 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 1px 1px 3px rgba($color: #000000, $alpha: 0.1);
+            img{
+                width: 100%;
+            }
+            &-content{
+                .newest__card-heading{
+                    font-size: 18px;
+                    color: $color-text;
+                    margin: 20px 0;
+                    padding: 0 12px;
+                    min-height: 56px;
+                    &:hover{
+                        color: $color-primary;
+                    }
+                }
+                .newest__card-footer{
+                    border-top: 1px solid rgba($color: #000000, $alpha: 0.1);
+                    padding: 12px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .newest__card-count{
+                        &-text{
+                            font-size: 1.4rem;
+                            color: $color-gray-2;
+                        }
+                        &-icon{
+                            color: $color-primary;
+                            margin-right: 4px;
+                            svg{
+                                width: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

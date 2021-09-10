@@ -1,0 +1,38 @@
+.footer{
+    
+    &__content{
+        padding: 60px 0;
+        &-item{
+            .footer__content-heading{
+                font-size: 1.4rem;
+                margin-bottom: 12px;
+            }
+            .footer__nav-list{
+                list-style: none;
+
+            }
+            .footer__nav-item{
+                padding: 8px 0;
+                
+            }
+            .footer__nav-link{
+                align-items: center;
+                display: flex;
+                font-size: 1.4rem;
+                color: $color-gray-2;
+                font-weight: 500;
+            }
+            .footer__nav-img{
+                width: 24px;
+                margin-right: 12px;
+            }
+        }
+    }
+    .footer__copyright{
+        font-size: 1.4rem;
+        color: $color-gray-2;
+        text-align: center;
+        padding: 24px 0;
+        border-top: 1px solid rgba($color: #000000, $alpha: 0.2);
+    }
+}

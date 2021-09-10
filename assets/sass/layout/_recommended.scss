@@ -1,0 +1,66 @@
+.recommended{
+    background: url("../../assets/img/topic-recommend-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+    &__content{
+        text-align: center;
+        &-heading{
+            color: $color-white;
+            font-size: 4rem;
+        }
+        &-text{
+            color: $color-white;
+            font-size: 1.6rem;
+        }
+    }
+    &__list{
+        .recommended__item{
+            background:$color-white;
+            border-radius: 10px;
+            display: flex;
+            padding: 30px 16px;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 24px;
+            position: relative;
+            &:hover::after{
+                width: 90%;
+            }
+            &::after{
+                content:"";
+                width: 0;
+                height: 4px;
+                background: $color-primary;
+                display: block;
+                position: absolute;
+                bottom: 20px;
+                left: 16px;
+                transition: width 0.3s;
+            }
+            &:hover .recommended__item-text{
+                left: 4px;
+            }
+            &-text{
+                text-align: left;
+                position: relative;
+                left: 0;
+                transition: left 0.3s;
+                .recommended__item-heding{
+                    font-size: 16px;
+                    color: $color-text;
+                }
+                .recommended__item-khoaHoc{
+                    font-size: 1.4rem;
+                    color: $color-text;
+                }
+            }
+            &-img{
+                display: flex;
+                img{
+                    width: 40px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.slide{
+    background: url("../../assets/img/bg-introduction-banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    &__content{
+        display: flex;
+        &-left{
+            margin-top: 230px;
+            padding-right: 150px;
+          .slide__content-heading{
+            color: $color-white;
+            font-size: 6rem;
+            margin: 0;
+            line-height: 7rem;
+            font-weight: 800;
+          }
+          .slide__content-text{
+            color: $color-gray;
+            font-size: 1.6rem;
+            margin: 40px 0;
+          }
+          .slide__content-btn{
+
+          }  
+        }
+        &-img{
+            margin-top: 150px;
+            margin-bottom: 40px;
+        }
+    }
+}

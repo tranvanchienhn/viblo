@@ -1,0 +1,56 @@
+.popular{
+    &__courses{
+        &-heading{
+            font-size:4rem;
+            margin-bottom: 40px;
+        }
+        .popular__card{
+            border: 1px solid rgba($color: #000000, $alpha: 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 1px 1px 3px rgba($color: #000000, $alpha: 0.1);
+            margin-top: 28px;
+            position: relative;
+            top:0;
+            transition: all 0.2s;
+            &:hover{
+                top:-4px;
+            }
+            img{
+                width: 100%;
+            }
+            &-content{
+                .popular__card-heading{
+                    font-size: 18px;
+                    color: $color-text;
+                    margin: 20px 0;
+                    padding: 0 12px;
+                    min-height: 56px;
+                    &:hover{
+                        color: $color-primary;
+                    }
+                }
+                .popular__card-footer{
+                    border-top: 1px solid rgba($color: #000000, $alpha: 0.1);
+                    padding: 12px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .popular__card-count{
+                        &-text{
+                            font-size: 1.4rem;
+                            color: $color-gray-2;
+                        }
+                        &-icon{
+                            color: $color-primary;
+                            margin-right: 4px;
+                            svg{
+                                width: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
